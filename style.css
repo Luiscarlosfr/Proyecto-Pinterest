@@ -1,0 +1,15 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header {background-color: aqua;
+    height: 15vh;
+
+}
+main {
+    background-color: beige;
+    height: 70vh;
+
+}
+footer {background-color: gray;
+height: 15vh;}
