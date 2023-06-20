@@ -7,8 +7,9 @@ header {
     flex-flow: row;
 align-items: center;
     height: 10vh;
-    gap: 15px;
+    gap: 25px;
     padding-left: 5px;
+    
 font-weight: lighter;
 }
 .inicio {background-color: black;
@@ -26,6 +27,7 @@ border-radius: 45%;
 header p:hover{cursor: pointer;
 
 }
+
 .logo {height: 60%;
     border-radius: 50%;
     border: 1px solid white;}
@@ -36,10 +38,21 @@ header p:hover{cursor: pointer;
     background-color: black;
 }
 .buscador {padding-left: 10px; 
-    width: 50%;
+    width: 68%;
 font-size: 15px;
 height: 50%;
 
+}
+header i:hover {cursor: pointer;
+
+}
+header img:hover {
+    cursor: pointer;
+}
+.profileimage {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
 main {
     background-color: beige;
