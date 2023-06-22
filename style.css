@@ -35,30 +35,55 @@ header p:hover {
 .logo {
   height: 60%;
   border-radius: 50%;
-  border: 1px solid white;
+ padding: 4px;
+
 }
 
-.logo:hover {
+.logo:hover{
   cursor: pointer;
-  background-color: black;
+  transition: 0.3s;
+  background-color:  rgb(179,176,176,0.4)
 }
 .buscador {
-    border-radius: 20px;
-  padding-left: 10px;
-  width: 68%;
+  background-image: url(/Assets/images/icons/Lupa.png);
+  background-size: 20px 20px ;
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  background-color: rgb(179,176,176,0.4);
+  position: relative;
+  border-radius: 20px;
+  padding-left: 30px;
+  width: 66%;
   font-size: 15px;
   height: 50%;
 }
-header i:hover {
+header i{
+  font-size: 25px;
+
+  padding: 4px;
+  border-radius: 30px;
+
+}
+header i:hover{
   cursor: pointer;
+  transition: 0.3s;
+  background-color:  rgb(179,176,176,0.4)
+
 }
 header img:hover {
   cursor: pointer;
 }
 .profileimage {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
+  padding: 6px;
+
+}
+.profileimage:hover{  cursor: pointer;
+  transition: 0.3s;
+  background-color:  rgb(179,176,176,0.4)
+
 }
 main {
   background-color: beige;
