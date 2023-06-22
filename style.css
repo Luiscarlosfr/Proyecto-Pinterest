@@ -36,21 +36,20 @@ header p:hover {
 .logo {
   height: 60%;
   border-radius: 50%;
- padding: 4px;
-
+  padding: 4px;
 }
 
-.logo:hover{
+.logo:hover {
   cursor: pointer;
   transition: 0.3s;
-  background-color:  rgb(179,176,176,0.4)
+  background-color: rgb(179, 176, 176, 0.4);
 }
 .buscador {
   background-image: url(/Assets/images/icons/Lupa.png);
-  background-size: 20px 20px ;
+  background-size: 20px 20px;
   background-position: 5px 5px;
   background-repeat: no-repeat;
-  background-color: rgb(179,176,176,0.4);
+  background-color: rgb(179, 176, 176, 0.4);
   position: relative;
   border-radius: 20px;
   padding-left: 30px;
@@ -58,18 +57,16 @@ header p:hover {
   font-size: 15px;
   height: 50%;
 }
-header i{
+header i {
   font-size: 25px;
 
   padding: 4px;
   border-radius: 30px;
-
 }
-header i:hover{
+header i:hover {
   cursor: pointer;
   transition: 0.3s;
-  background-color:  rgb(179,176,176,0.4)
-
+  background-color: rgb(179, 176, 176, 0.4);
 }
 header img:hover {
   cursor: pointer;
@@ -79,17 +76,36 @@ header img:hover {
   width: 40px;
   border-radius: 50%;
   padding: 6px;
-
 }
-.profileimage:hover{  cursor: pointer;
+.profileimage:hover {
+  cursor: pointer;
   transition: 0.3s;
-  background-color:  rgb(179,176,176,0.4)
-
+  background-color: rgb(179, 176, 176, 0.4);
 }
 main {
-  background-color: beige;
+padding-top: 10px;
   height: 80vh;
 }
+.container-img{width: 100%;
+max-width: 1100px;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: 350px;
+grid-gap: 15px;
+}
+.container-img .box-img figure{
+  width: 100%;
+  height: 100%; 
+}
+.container-img .box-img img{
+  height: 100%;
+  width: 100%;
+object-fit: cover;  
+}
+
 footer {
   background-color: gray;
   height: 10vh;
