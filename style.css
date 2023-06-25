@@ -93,9 +93,10 @@ main {
   margin-top: 10px;
   margin-bottom: 10px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 250px;
   grid-gap: 20px;
+  height: 800px;
 }
 
 .container-img .box-img figure {
@@ -107,15 +108,18 @@ main {
   width: 100%;
   object-fit: cover;
 }
+
 .container-img .box-img:nth-child(1) {
   grid-column-start: span 2;
 }
 .container-img .box-img:nth-child(4) {
   grid-row-start: span 2;
 }
+
 .Img1 {
   border-radius: 20px 20px 20px 20px;
 }
+
 .Img2 {
   border-radius: 20px 20px 20px 20px;
 }
@@ -132,6 +136,24 @@ main {
   border-radius: 20px 20px 20px 20px;
 }
 .Img7 {
+  border-radius: 20px 20px 20px 20px;
+}
+.Img8 {
+  border-radius: 20px 20px 20px 20px;
+}
+.Img9 {
+  border-radius: 20px 20px 20px 20px;
+}
+.Img10 {
+  border-radius: 20px 20px 20px 20px;
+}
+.Img11 {
+  border-radius: 20px 20px 20px 20px;
+}
+.Img12 {
+  border-radius: 20px 20px 20px 20px;
+}
+.Img13 {
   border-radius: 20px 20px 20px 20px;
 }
 @media screen and (max-width: 800px) {
@@ -156,6 +178,5 @@ main {
 }
 
 footer {
-  background-color: gray;
-  height: 10vh;
+  height: 1vh;
 }
